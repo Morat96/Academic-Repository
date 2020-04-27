@@ -1,0 +1,4 @@
+string station
+int32 objects
+---
+int32 objOnTable

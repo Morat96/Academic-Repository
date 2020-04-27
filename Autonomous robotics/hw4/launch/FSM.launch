@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="objects"/>
+<arg name="simulation" default="1"/>
+<arg name="gripper_enable" default="1"/>
+<node name ="apriltag" pkg="hw4" type="apriltag" args="$(arg objects)"/>
+<node name ="nav" pkg="hw4" type="nav" output="screen" ns="marrtino">
+<remap from="/marrtino/ur5/hw4" to="/ur5/hw4"/>
+</node>
+<node name ="move" pkg="hw4" type="move" output="screen" ns="ur5">
+<param name="simulation" type= "int" value="$(arg simulation)"/>
+<param name="gripper_enable" type= "int" value="$(arg gripper_enable)"/>
+<remap from="/ur5/tag_detections" to="/tag_detections"/>
+<remap from="/ur5/tf" to="/tf"/>
+</node>
+</launch>

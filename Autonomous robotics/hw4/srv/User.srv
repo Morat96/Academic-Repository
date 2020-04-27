@@ -1,0 +1,5 @@
+string arrived
+int32 objOnTable
+---
+int32 go
+int32 req_objs

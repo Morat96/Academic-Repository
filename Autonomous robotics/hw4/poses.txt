@@ -1,0 +1,26 @@
+Frame ID: red_cube_2
+Marker ID: 2
+POSE
+Position:
+x: 0.131683
+y: -0.00429592
+z: 1.88077
+Orientation:
+x: 0.695108
+y: 0.709621
+z: -0.0461564
+w: -0.10551
+
+Frame ID: red_cube_3
+Marker ID: 3
+POSE
+Position:
+x: -0.157519
+y: 0.0204512
+z: 1.90749
+Orientation:
+x: 0.708106
+y: 0.705853
+z: -0.0152918
+w: -0.0111073
+
