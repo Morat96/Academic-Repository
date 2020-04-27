@@ -1,7 +1,7 @@
 # Academic Repository
 
 Important Information:
-Personal Academic Repository (copying of the following files is not allowed!)
+Personal Academic Repository (<b>copying of the following files is not allowed!</b>)
 
 Courses:
 1) Autonomous Robotics
