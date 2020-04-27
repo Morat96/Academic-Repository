@@ -1,10 +1,10 @@
 # Academic Repository
 
 Important Information:
-Personal Academic Repository (<b>copying of the following files is not allowed!</b>)
+<b> Personal Academic Repository (copying of the following files is not allowed!) </b>
 
 Courses:
-1) Autonomous Robotics
-2) Big Data Computing
-3) Computer Vision
-4) Machine Learning
+1) <i> Autonomous Robotics </i>
+2) <i> Big Data Computing </i>
+3) <i> Computer Vision </i>
+4) <i> Machine Learning </i>
